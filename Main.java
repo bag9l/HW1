@@ -47,11 +47,11 @@ public class Main {
         System.out.println("Сума: "+sum);
         System.out.println();
     /////////////////////////////////////////////////////////
-          // Середнє значення елементів:
+         // Середнє значення елементів:
         System.out.println("3. Середній елемент:");
        int arr2[]={2,5,3,-2,66,0,-23,5,43};
        int sum1=0;
-       int avg=0;
+       float avg;
         for (int i = 0; i < arr2.length; i++) {
            sum1+=arr2[i];
         }
@@ -59,7 +59,7 @@ public class Main {
         for (int i = 0; i < arr2.length; i++)
             System.out.printf(arr2[i]+" ");
         System.out.println();
-        System.out.println("Середнє значення елементів: "+arr2[avg]);
+        System.out.println("Середнє значення елементів: "+ avg);
         System.out.println();
     /////////////////////////////////////////////////////////
         // Заміна дубльованого елемента на нуль:
