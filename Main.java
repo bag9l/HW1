@@ -71,7 +71,7 @@ public class Main {
 
         // Заміна дубльованого елемента на нуль:
         System.out.println("4. Replacing a duplicate item with zero:");
-        int ArrWithoutDuplElements[]={2,-1,45,2,12,12,11,-1};
+        int ArrWithoutDuplElements[]={3,2,3,1,4,2,8,3};
         for (int i = 0; i < ArrWithoutDuplElements.length; i++)
             System.out.printf(ArrWithoutDuplElements[i]+" ");
 
