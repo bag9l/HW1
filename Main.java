@@ -16,7 +16,7 @@ public class Main {
         System.out.println();
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
-                if(arr[i]<arr[j] && i!=j) {
+                if(arr[i]>arr[j] && i!=j) {
                     temp = arr[j];
                     arr[j] = arr[i];
                     arr[i] = temp;
