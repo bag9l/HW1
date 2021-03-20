@@ -9,7 +9,7 @@ public class Main {
         // Сортування масиву:
         System.out.println("1. Сортування масиву:");
         int arr[]={2,3,1,7,11};
-        int k;
+        int temp;
         System.out.printf("\tПочатковий масив: ");
         for (int i = 0; i < arr.length; i++)
             System.out.printf(arr[i]+" ");
@@ -17,9 +17,9 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
                 if(arr[i]<arr[j] && i!=j) {
-                    k = arr[j];
+                    temp = arr[j];
                     arr[j] = arr[i];
-                    arr[i] = k;
+                    arr[i] = temp;
                 }
             }
         }
